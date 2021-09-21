@@ -180,9 +180,9 @@ Youtube貼り付けここまで -->
         <section v-if="clear['stage2']" v-bind:class="{isClear:clear['stage2']}"  class="section section--clear bg-color--gray">
           <div class="container">
             <div class="clear-message">
-              <div class="clear-message__title">STAGE：2　クリア！</div>
-              <div class="clear-message__content">黒板の指示に従い、<br>
-                次のステージの謎を解こう！</div>
+              <div class="clear-message__title">答えの数字を鍵に合わせると中から鍵が出てきた。</div>
+              <div class="clear-message__content"><br>
+                どうやら駅員室の鍵のようだ。</div>
                 <button v-on:click="nextStage('stage2')" onclick="location.href='#sectionStage3'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -198,8 +198,7 @@ Youtube貼り付けここまで -->
         <section class="section">
           <div class="container">
             <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：3</span>最終問題？　</h2>
-            <p class="text-center">答えの数字を鍵に合わせると中から鍵が出てきた。<br>
-              どうやら駅員室の鍵のようだ。<br>
+            <p class="text-center">かなり外装が錆びている。<br>
               駅員室に入ると引き出しがあり、また鍵と問題があった。</p>
             <figure class="image__container">
               <img src="assets/images/stage.png" alt="">
