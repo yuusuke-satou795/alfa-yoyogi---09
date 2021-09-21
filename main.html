@@ -180,9 +180,11 @@ Youtube貼り付けここまで -->
         <section v-if="clear['stage2']" v-bind:class="{isClear:clear['stage2']}"  class="section section--clear bg-color--gray">
           <div class="container">
             <div class="clear-message">
-              <div class="clear-message__title">答えの数字を鍵に合わせると中から鍵が出てきた。</div>
+              <div class="clear-message__title">解錠成功</div>
               <div class="clear-message__content"><br>
+                答えの数字を鍵に合わせると中から鍵が出てきた</div>
                 どうやら駅員室の鍵のようだ。</div>
+　　　
                 <button v-on:click="nextStage('stage2')" onclick="location.href='#sectionStage3'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
